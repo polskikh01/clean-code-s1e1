@@ -28,7 +28,7 @@ body {
 
 }
 
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -40,7 +40,7 @@ body {
   flex-grow: 1;
 }
 
-.centered-main-page-element__task-row-wrapper {
+.main__task-wrapper {
   display: flex;
 }
 
@@ -160,7 +160,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed label {
   text-decoration: line-through;
   color: #888;
 }
