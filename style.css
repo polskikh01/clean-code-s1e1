@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -112,7 +112,7 @@ label[for="new-task"] {
   width: 318px;
 }
 
-main__task-wrapper > button:hover {
+.main__task-wrapper > button:hover {
   color: #0fc57c;
 }
 
